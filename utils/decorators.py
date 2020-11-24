@@ -59,7 +59,6 @@ def performance_to_excel(excel, sleep_around=5):
                 perc = psutil.cpu_percent(interval=1, percpu=True)
                 # Timestamp
                 date = datetime.datetime.now().strftime("%H:%M:%S")# %d/%m/%Y")
-                print('| %30s |: *%s timestamp...' % ('thread', date))
                 ram = psutil.virtual_memory()
                 net_after = psutil.net_io_counters()
                 perc.append(date)
@@ -74,6 +73,7 @@ def performance_to_excel(excel, sleep_around=5):
                 perc.append(net_after.bytes_recv-net_before.bytes_recv)
 
                 excel.append_row(perc)
+                print('| %30s |: *%s timestamp...' % ('thread', date))
                 excel.save()
             print('| %30s |: Stop recording!' % ('thread'))
             print('| %30s |' % (''))

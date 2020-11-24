@@ -24,7 +24,7 @@ class Excel(object):
 
     def create_column_names(self, columns_names):
         self.__assert_file_exist__()
-        assert len(columns_names) <= len(Excel.XLSX_DEFAULT_COLUMNS), f'Too many columns names provided (max {len(XLSX_DEFAULT_COLUMNS)})'
+        assert len(columns_names) <= len(Excel.XLSX_DEFAULT_COLUMNS), f'Too many columns names provided (max {len(Excel.XLSX_DEFAULT_COLUMNS)})'
         for idx, name in enumerate(columns_names):
             self.sheet[f'{Excel.XLSX_DEFAULT_COLUMNS[idx]}1'] = name
 
