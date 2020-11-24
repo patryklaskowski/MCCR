@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # Initialize
     filename = f'performance_{round(time.time())}.xlsx'
     cur_abspath = os.path.abspath(os.path.curdir)
-    path = os.path.join(cur_abspath, 'excel_files', filename)
+    path = os.path.join(cur_abspath, filename)
     
     # show time
     print(40*'-')
