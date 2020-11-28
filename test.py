@@ -21,5 +21,5 @@ if __name__ == '__main__':
     
     # show time
     print(40*'-')
-    record_system_performance(path, sleep_five_sec, timeout=5, sleep_around=1, stop=False)
+    record_system_performance(path, sleep_five_sec, timeout=5, sleep_around=5, stop=False)
     print(40*'-')
