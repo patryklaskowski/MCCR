@@ -38,13 +38,11 @@ python3.7 -m pip install -r requirements.txt
 python3.7 test.py
 ```
 
-![Terminal screenshot](https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/terminal_01.png?raw=true)
+<p align="center"><img width="750" src="https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/terminal_01.png?raw=true" alt="terminal_01.png"></p>
 
 On path there is new XLS `Measure_System_Resources/performance_1610449879.xlsx`
 
-<p align="center"><img width="400" src="https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true"></p>
-
-![XLS screenshot](https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true)
+<p align="center"><img width="750" src="https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true" alt="xls_01.png"></p>
 
 ### 3) Import the ```record_system_performance``` function
 Great way is to add the path of */Measure_System_Resources* to sys.path. This step helps python interpreter to find the tool.
