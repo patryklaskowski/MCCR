@@ -42,6 +42,8 @@ python3.7 test.py
 
 On path there is new XLS `Measure_System_Resources/performance_1610449879.xlsx`
 
+<p align="center"><img width="400" src="https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true"></p>
+
 ![XLS screenshot](https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true)
 
 ### 3) Import the ```record_system_performance``` function
@@ -90,3 +92,4 @@ record_system_performance(path, sleep_five_sec, timeout=20, sleep_around=5, stop
 - [ ] Show example plots
 - [ ] Describe `record_system_performance(path, sleep_five_sec, timeout=20, sleep_around=5, stop=False)` attributes
 - [ ] Thread should activate process with e.g. Event(). Now sleep_around is not symmetric.
+- [ ] Describe measures from XLS
