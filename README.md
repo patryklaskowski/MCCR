@@ -18,13 +18,13 @@ Track and save system resources consumption while **YOUR** function is running.
 
 ### 1) Download the repository
 ```
-git clone https://github.com/patryklaskowski/Measure_System_Resources.git 
+git clone https://github.com/patryklaskowski/Measure_System_Resources.git && \
 cd Measure_System_Resources
 ```
 
 ### 1a) Create and activate virtual environment (optional but recommended).
 ```
-python3.7 -m venv env
+python3.7 -m venv env && \
 source env/bin/activate
 ```
 
