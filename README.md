@@ -30,8 +30,19 @@ source env/bin/activate
 
 ### 2) Install requirements
 ```
-pip install -r requirements.txt
+python3.7 -m pip install -r requirements.txt
 ```
+
+### 2a) Test
+```
+python3.7 test.py
+```
+
+![Terminal screenshot](https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/terminal_01.png?raw=true)
+
+On path there is new XLS `Measure_System_Resources/performance_1610449879.xlsx`
+
+![XLS screenshot](https://github.com/patryklaskowski/Measure_System_Resources/blob/main/images/xls_01.png?raw=true)
 
 ### 3) Import the ```record_system_performance``` function
 Great way is to add the path of */Measure_System_Resources* to sys.path. This step helps python interpreter to find the tool.
@@ -78,3 +89,4 @@ record_system_performance(path, sleep_five_sec, timeout=20, sleep_around=5, stop
 
 - [ ] Show example plots
 - [ ] Describe `record_system_performance(path, sleep_five_sec, timeout=20, sleep_around=5, stop=False)` attributes
+- [ ] Thread should activate process with e.g. Event(). Now sleep_around is not symmetric.
